@@ -1,6 +1,6 @@
 from flask import Flask, request, render_template_string
 
-app = Flask(cgpa)
+app = Flask(__name__)
 
 # HTML template as a string
 html_template = """
